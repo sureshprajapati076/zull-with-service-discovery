@@ -13,7 +13,7 @@ public class AddressController
 	
 	
 	
-    @GetMapping("/address")
+    @GetMapping("/getStudentName")
     public String getControllerName()
     {
     	
@@ -30,8 +30,18 @@ public class AddressController
         return response;
     }
     
-    @GetMapping("/sendtostudent")
+    @GetMapping("/getAddress")
     public String getAdd() {
+    	
+    	try {
+			Thread.sleep(500);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    	
+    	
+    	
     	return "THIS IS SENT FROM ADDRESS SERVICE";
     }
     

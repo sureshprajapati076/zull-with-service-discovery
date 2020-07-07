@@ -1,0 +1,27 @@
+POST http://localhost:2020/signin
+Content-Type: application/json
+
+{
+    "username":"admin@gmail.com",
+    "password":"admin"
+}
+
+###
+GET http://localhost:2020/student-api/name
+Content-Type: application/json
+
+###
+GET http://localhost:2020/student-api/callAddressFromStudent
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1OTQxMDMxMjIsImlhdCI6MTU5NDA4NTEyMn0.NDFbAa7YQljj3CR-PnWOAhIvnhxPFPNQXlARNHF5FiF7pKr7JYkWrp43ifz5R38SVGcsjBeB4e8XIfHqrqYw6Q
+
+
+###
+GET http://localhost:2020/address-api/getAddress
+Content-Type: application/json
+
+###
+GET http://localhost:2020/address-api/getStudentName
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1OTQxMDMxMjIsImlhdCI6MTU5NDA4NTEyMn0.NDFbAa7YQljj3CR-PnWOAhIvnhxPFPNQXlARNHF5FiF7pKr7JYkWrp43ifz5R38SVGcsjBeB4e8XIfHqrqYw6Q
+
