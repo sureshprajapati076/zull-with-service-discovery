@@ -34,7 +34,7 @@ public class AddressController
     public String getAdd() {
     	
     	try {
-			Thread.sleep(1200);
+			Thread.sleep(200);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
