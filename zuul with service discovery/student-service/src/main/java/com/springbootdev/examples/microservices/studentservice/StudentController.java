@@ -28,7 +28,7 @@ public class StudentController {
 	
 	
 	@HystrixCommand(fallbackMethod = "serviceMayBeDown", commandProperties = {
-			   @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "1000")
+			   @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "1500")
 			})
 	public String communicate() {
 
