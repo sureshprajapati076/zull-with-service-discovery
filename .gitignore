@@ -28,6 +28,7 @@ hs_err_pid*
 # compiled output
 /dist
 /tmp
+/target
 /out-tsc
 # Only exists if Bazel was run
 /bazel-out
